@@ -40,9 +40,9 @@ ds1['movie_title'].str.strip()#to remove the trailing spaces
 
 #reverse column
 
-ds1.rename(columns={'title_year':'release_date','movie_facebook_likes':'facebook_likes'})
+ds2=ds1.rename(columns={'title_year':'release_date','movie_facebook_likes':'facebook_likes'})
 
 #save your result
 
-ds1.to_csv('cleanfile.csv',encoding='utf-8')
+ds2.to_csv('cleanfile11.csv',encoding='utf-8')
 
