@@ -44,5 +44,3 @@ ds2=ds1.rename(columns={'title_year':'release_date','movie_facebook_likes':'face
 
 #save your result
 
-ds2.to_csv('cleanfile11.csv',encoding='utf-8')
-
